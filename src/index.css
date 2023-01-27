@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-pagination li {
+  background-color: #eaeaea !important;
+}
+
+.ant-pagination .ant-pagination-item-active {
+  background-color: white !important;
+}
+
+.ant-list-item-meta-avatar {
+  margin-right: 0 !important;
+}
+
+.ant-list-item-meta-content {
+  width: 100% !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #001529 !important;
+  color: #b3b3b3 !important;
+  /* border-bottom: 5px solid white; */
+}
+
+.ant-menu-submenu {
+  background-color: #001529 !important;
+}
